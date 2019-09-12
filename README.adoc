@@ -1,0 +1,17 @@
+= docker-latex
+
+Docker containers to compile latex files.
+
+== Commands
+[source,sh]
+----
+    make all # build all containers and push all
+    make build # build all containers
+    make push # push all containers
+    make build_latex # build container without inkscape
+    make push_latex # push container without inkscape
+    make build_latex_svg # build container with inkscape
+    make push_latex_svg # push container with inkscape
+----
+
+For more information see the Makefile
